@@ -1,0 +1,83 @@
+body{
+    background-image: url('images/IMG_4384.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page-connexion {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.5);
+     padding: 40px;
+     border-radius: 10px;
+     text-align: center;
+     
+}
+.page-connexion h2{
+    margin-bottom: 40px;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-connexion input, 
+label[type="email"],
+ [type="password"]
+select{
+
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.8);
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.4);
+      border-left: 6px solid #4CAF50;
+      border-right: 6px solid #4CAF50;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+.page-connexion button[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color:#4CAF50 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.page-connexion button[type="submit"]:hover{
+    background-color: #218838;
+}
+.page-connexion .link{
+    display: block;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+.page-connexion .link a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+.page-connexion .link a:hover{
+    text-decoration: underline;
+}
+.search-form input[type="text"]::placeholder{
+    color: white;
+}
+.search-form input[type="email"]::placeholder{
+    color: white;
+}
+.search-form input[type="password"]::placeholder{
+    color: white;
+}
